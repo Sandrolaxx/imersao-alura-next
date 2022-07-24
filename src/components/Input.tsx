@@ -8,7 +8,7 @@ export default function Input({ imagePath, handleChangeValue, labelText, isToggl
                     <input type="checkbox" name="toggle" id={labelText} onChange={() => handleChangeValue()}
                         className={`checked:bg-blue-400 outline-none focus:outline-none right-4 checked:right-0 duration-200 
                         ease-in absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer`} />
-                    <label for={labelText} className="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
+                    <label htmlFor={labelText} className="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
                     </label>
                 </div>
                 <span className="text-gray-400 font-medium">

@@ -74,7 +74,7 @@ export default function Home() {
                     <>
                         {
                             image &&
-                            <img className='rounded-xl border-2 border-slate-300' src={image} width={200} height={200} />
+                            <Image className='rounded-xl border-2 border-slate-300' src={image} width={200} height={200} />
                         }
                         {
                             image &&
