@@ -8,3 +8,9 @@ export interface ButtonProps {
     text: string;
     handleFunction: () => void;
 }
+
+export type Sticker = {
+    imagePath: string;
+    imageText: string;
+    textInsideImage: boolean;
+}
