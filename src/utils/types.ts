@@ -1,7 +1,8 @@
 export interface InputProps {
     labelText: string;
-    imagePath: string;
+    imagePath?: string;
     handleChangeValue: Function;
+    isToggle?: boolean;
 }
 
 export interface ButtonProps {
@@ -13,4 +14,5 @@ export type Sticker = {
     imagePath: string;
     imageText: string;
     textInsideImage: boolean;
+    originalSize: boolean;
 }
