@@ -9,9 +9,6 @@ const apiToken = process.env.NEXT_PUBLIC_TOKEN_PASSWORD;
 export default function generateSticker(stickerData: Sticker) {
     const toastify = toast.loading("Gerando Sticker...".concat(String.fromCodePoint(Number.parseInt("0x1F525"))));
 
-    console.log(baseUrl);
-    console.log(apiToken);
-    
     const request: RequestInit = {
         headers: {
             "Content-Type": "application/json",
