@@ -60,7 +60,7 @@ export default function Home() {
                     <Image className='rounded-xl' src={Imersao} alt="Imersão logo" width={400} height={200} />
                 </span>
                 <Input imagePath={imagePath} handleChangeValue={setImagePath}
-                    labelText={String.fromCodePoint(Number.parseInt("0x1F449")).concat(" Insira a URL da Imagem")} />
+                    labelText={String.fromCodePoint(Number.parseInt("0x1F449")).concat(" Insira a URL da Imagem(.jpg ou .png)")} />
                 <Input imagePath={imageText} handleChangeValue={changeStickerText}
                     labelText={String.fromCodePoint(Number.parseInt("0x1F449")).concat(" Insira o texto do Sticker")} />
                 <div className="flex flex-col">
