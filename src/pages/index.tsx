@@ -57,7 +57,7 @@ export default function Home() {
                     </p>
                 </span>
                 <span className='mb-4'>
-                    <Image className='rounded-xl' src={Imersao} alt="Imersão logo" width={400} height={200} />
+                    <Image className='rounded-xl' src={Imersao} alt="Imersão logo" width={400} height={180} />
                 </span>
                 <Input imagePath={imagePath} handleChangeValue={setImagePath}
                     labelText={String.fromCodePoint(Number.parseInt("0x1F449")).concat(" Insira a URL da Imagem(.jpg ou .png)")} />
@@ -74,7 +74,7 @@ export default function Home() {
                     <>
                         {
                             image &&
-                            <Image className='rounded-xl border-2 border-slate-300' src={image} width={200} height={200} />
+                            <Image className='rounded-xl border-2 border-slate-300' src={image} width={240} height={300} />
                         }
                         {
                             image &&
