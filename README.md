@@ -15,9 +15,17 @@ Trata-se de uma aplicação criada com os conhecimentos adquiridos na [Imersão 
 
 ## 🖼🖌Telas do projeto
 
-###  *Tela Inicial da Aplicação*
+###  *Gerando a Figurinha*
+![GenerateSticker](https://user-images.githubusercontent.com/61207420/182042472-65459bb3-be27-4d4e-87c5-2e697dbf24b4.gif)
 
-###  *Após Gerar a Figuração*
+###  *Gerando a Figurinha com Tamanho Original da Imagem*
+![OriginalSize](https://user-images.githubusercontent.com/61207420/182042468-e86883e4-36e1-450a-bded-5f3772af781a.gif)
+
+###  *Gerando Figurinha Texto dentro da Imagem*
+![TextUnder](https://user-images.githubusercontent.com/61207420/182042471-5ed2f9fd-5209-44d5-9d72-daba8836e22c.gif)
+
+###  *Download da Figurinha*
+![Download](https://user-images.githubusercontent.com/61207420/182042413-9b1470b7-eb19-48cb-860b-262e6644fde7.gif)
 
 ---
 
